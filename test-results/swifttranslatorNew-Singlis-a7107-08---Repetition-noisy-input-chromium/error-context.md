@@ -119,48 +119,30 @@
               - button "Redo" [ref=e128] [cursor=pointer]:
                 - img [ref=e129]
           - generic [ref=e131]:
-            - textbox "Input Your Singlish Text Here." [active] [ref=e132]: ohoma karaata hariyanne naee bQQ
+            - textbox "Input Your Singlish Text Here." [active] [ref=e132]: hari hari hari hari hari hari egollo anivaaren enavaa
             - list [ref=e134]:
-              - listitem [ref=e135] [cursor=pointer]: භංග
-              - listitem [ref=e136] [cursor=pointer]: භංත
-              - listitem [ref=e137] [cursor=pointer]: බංකා
-              - listitem [ref=e138] [cursor=pointer]: බංකු
-              - listitem [ref=e139] [cursor=pointer]: බංටු
-              - listitem [ref=e140] [cursor=pointer]: භංගය
-              - listitem [ref=e141] [cursor=pointer]: භංජන
-              - listitem [ref=e142] [cursor=pointer]: භංජය
-              - listitem [ref=e143] [cursor=pointer]: බංකරය
-              - listitem [ref=e144] [cursor=pointer]: බංකුව
-              - listitem [ref=e145] [cursor=pointer]: බංගලි
-              - listitem [ref=e146] [cursor=pointer]: බංජනය
-              - listitem [ref=e147] [cursor=pointer]: භංගුර
-              - listitem [ref=e148] [cursor=pointer]: භංජනය
-              - listitem [ref=e149] [cursor=pointer]: බංගලාව
-              - listitem [ref=e150] [cursor=pointer]: බංගසාල
-              - listitem [ref=e151] [cursor=pointer]: බංගාලි
-              - listitem [ref=e152] [cursor=pointer]: භංගජාත
-              - listitem [ref=e153] [cursor=pointer]: භංගත්ව
-              - listitem [ref=e154] [cursor=pointer]: බංකලොත්
-          - generic [ref=e155]:
-            - button "Open File" [ref=e156] [cursor=pointer]:
-              - img [ref=e157]
-            - button "Copy" [ref=e159] [cursor=pointer]:
-              - img [ref=e160]
-            - button "Cut" [ref=e162] [cursor=pointer]:
-              - img [ref=e163]
-            - button "Paste" [ref=e165] [cursor=pointer]:
-              - img [ref=e166]
-            - button "Clear" [ref=e168] [cursor=pointer]:
-              - img [ref=e169]
-        - button "Swap Languages" [ref=e172] [cursor=pointer]:
-          - img [ref=e173]
-        - generic [ref=e175]:
-          - generic [ref=e176]: Sinhala
-          - generic [ref=e177]: ඔහොම කරාට හරියන්නේ නෑ බං
-          - generic [ref=e178]:
-            - button "Copy" [ref=e179] [cursor=pointer]:
-              - img [ref=e180]
-            - button "Clear" [ref=e182] [cursor=pointer]:
-              - img [ref=e183]
-      - button "Clear" [ref=e186] [cursor=pointer]: 🗑️ Clear
+              - listitem [ref=e135] [cursor=pointer]: එනවා
+              - listitem [ref=e136] [cursor=pointer]: එණවා
+          - generic [ref=e137]:
+            - button "Open File" [ref=e138] [cursor=pointer]:
+              - img [ref=e139]
+            - button "Copy" [ref=e141] [cursor=pointer]:
+              - img [ref=e142]
+            - button "Cut" [ref=e144] [cursor=pointer]:
+              - img [ref=e145]
+            - button "Paste" [ref=e147] [cursor=pointer]:
+              - img [ref=e148]
+            - button "Clear" [ref=e150] [cursor=pointer]:
+              - img [ref=e151]
+        - button "Swap Languages" [ref=e154] [cursor=pointer]:
+          - img [ref=e155]
+        - generic [ref=e157]:
+          - generic [ref=e158]: Sinhala
+          - generic [ref=e159]: හරි හරි හරි හරි හරි හරි එගොල්ලො අනිවාරෙන් එනවා
+          - generic [ref=e160]:
+            - button "Copy" [ref=e161] [cursor=pointer]:
+              - img [ref=e162]
+            - button "Clear" [ref=e164] [cursor=pointer]:
+              - img [ref=e165]
+      - button "Clear" [ref=e168] [cursor=pointer]: 🗑️ Clear
 ```

@@ -119,29 +119,48 @@
               - button "Redo" [ref=e128] [cursor=pointer]:
                 - img [ref=e129]
           - generic [ref=e131]:
-            - textbox "Input Your Singlish Text Here." [active] [ref=e132]: eyaa edhdhi 9.00 PM vath venavaa
+            - textbox "Input Your Singlish Text Here." [active] [ref=e132]: loku va ess ak atha Laga
             - list [ref=e134]:
-              - listitem [ref=e135] [cursor=pointer]: වෙනවා
-              - listitem [ref=e136] [cursor=pointer]: වෙණවා
-          - generic [ref=e137]:
-            - button "Open File" [ref=e138] [cursor=pointer]:
-              - img [ref=e139]
-            - button "Copy" [ref=e141] [cursor=pointer]:
-              - img [ref=e142]
-            - button "Cut" [ref=e144] [cursor=pointer]:
-              - img [ref=e145]
-            - button "Paste" [ref=e147] [cursor=pointer]:
-              - img [ref=e148]
-            - button "Clear" [ref=e150] [cursor=pointer]:
-              - img [ref=e151]
-        - button "Swap Languages" [ref=e154] [cursor=pointer]:
-          - img [ref=e155]
-        - generic [ref=e157]:
-          - generic [ref=e158]: Sinhala
-          - generic [ref=e160]:
-            - button "Copy" [ref=e161] [cursor=pointer]:
-              - img [ref=e162]
-            - button "Clear" [ref=e164] [cursor=pointer]:
-              - img [ref=e165]
-      - button "Clear" [ref=e168] [cursor=pointer]: 🗑️ Clear
+              - listitem [ref=e135] [cursor=pointer]: ලඟ
+              - listitem [ref=e136] [cursor=pointer]: ළග
+              - listitem [ref=e137] [cursor=pointer]: ළඟ
+              - listitem [ref=e138] [cursor=pointer]: ලඟම
+              - listitem [ref=e139] [cursor=pointer]: ලඟා
+              - listitem [ref=e140] [cursor=pointer]: ළඟට
+              - listitem [ref=e141] [cursor=pointer]: ළඟම
+              - listitem [ref=e142] [cursor=pointer]: ළඟා
+              - listitem [ref=e143] [cursor=pointer]: ලගින
+              - listitem [ref=e144] [cursor=pointer]: ලගුඩ
+              - listitem [ref=e145] [cursor=pointer]: ලගුළ
+              - listitem [ref=e146] [cursor=pointer]: ළඟදී
+              - listitem [ref=e147] [cursor=pointer]: ළඟයි
+              - listitem [ref=e148] [cursor=pointer]: ළඟලඟ
+              - listitem [ref=e149] [cursor=pointer]: ලග්නය
+              - listitem [ref=e150] [cursor=pointer]: ලග්නව
+              - listitem [ref=e151] [cursor=pointer]: ලගුඩය
+              - listitem [ref=e152] [cursor=pointer]: ලගුවී
+              - listitem [ref=e153] [cursor=pointer]: ලගෙජ්
+              - listitem [ref=e154] [cursor=pointer]: ලඟපාත
+          - generic [ref=e155]:
+            - button "Open File" [ref=e156] [cursor=pointer]:
+              - img [ref=e157]
+            - button "Copy" [ref=e159] [cursor=pointer]:
+              - img [ref=e160]
+            - button "Cut" [ref=e162] [cursor=pointer]:
+              - img [ref=e163]
+            - button "Paste" [ref=e165] [cursor=pointer]:
+              - img [ref=e166]
+            - button "Clear" [ref=e168] [cursor=pointer]:
+              - img [ref=e169]
+        - button "Swap Languages" [ref=e172] [cursor=pointer]:
+          - img [ref=e173]
+        - generic [ref=e175]:
+          - generic [ref=e176]: Sinhala
+          - generic [ref=e177]: ලොකු ව එස්ස් අක් අත ළග
+          - generic [ref=e178]:
+            - button "Copy" [ref=e179] [cursor=pointer]:
+              - img [ref=e180]
+            - button "Clear" [ref=e182] [cursor=pointer]:
+              - img [ref=e183]
+      - button "Clear" [ref=e186] [cursor=pointer]: 🗑️ Clear
 ```

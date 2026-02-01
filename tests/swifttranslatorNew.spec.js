@@ -117,8 +117,8 @@ const testData = [
     name: "Informal phrasing",
     type: "positive",
     lengthType: "M",
-    input: "ohoma karaata hariyanne naee machan ",
-    expected: "ඔහොම කරාට හරියන්නේ මචන් "
+    input: "ohoma karaata hariyanne naee machan",
+    expected: "ඔහොම කරාට හරියන්නේ නෑ මචන්"
   },
   {
     id: "Pos_Fun_0010",
@@ -267,128 +267,126 @@ const testData = [
   
 
   //negative test cases can be added here
-    {
-    id: "Neg_Fun_0028",
-    name: "Slang / informal (adoo machan...)",
-    type: "negative",
-    lengthType: "S",
-    input: "adoo machan mata epaa velaa thiyenne",
-    expected: "අඩෝ මචං මට එපා වෙලා තියෙන්නෙ"
-  },
-  {
-    id: "Neg_Fun_0029",
-    name: "Unnatural/incorrect structure (grammar issue)",
-    type: "negative",
-    lengthType: "M",
-    input: "owun charikawa yaama nisaa sellam kiriimata yaamata nohaekiwiya",
-    expected: "ඔවුන් චරිකව යාම නිසා සෙල්ලම් කිරීමට යාමට නොහෑකිවිය"
-  },
-  {
-    id: "Neg_Fun_0030",
-    name: "Corrupted input / symbols + codes",
-    type: "negative",
-    lengthType: "M",
-    input: "mata mee potha vibaagaya sadhah+I146+D126",
-    expected: "මට මේ පොත විභාගය සදහා බාවිතා කල හැකිද?"
-  },
-  {
-    id: "Neg_Fun_0031",
-    name: "English tech term embedded (framework/tool)",
-    type: "negative",
-    lengthType: "S",
-    input: "ape project ekata api Laravel pavichchi kalaa",
-    expected: "අපේ project එකට අපි Laravel  පවිච්චි කලා"
-  },
-  {
-    id: "Neg_Fun_0032",
-    name: "Missing spaces / merged words",
-    type: "negative",
-    lengthType: "S",
-    input: "ohuraekiyaavatayannetraineken",
-    expected: "ඔහු රැකියාවට යන්නෙ train එකෙන්"
-  },
-  {
-    id: "Neg_Fun_0033",
-    name: "Ambiguous / unclear phrase",
-    type: "negative",
-    lengthType: "S",
-    input: "loku va ess ak atha Laga",
-    expected: "ලොකු වැස්සක් අත ළග"
-  },
-  {
-    id: "Neg_Fun_0034",
-    name: "Formal notice style sentence",
-    type: "negative",
-    lengthType: "M",
-    input: "dhumriya vedikava vetha lagaveemata niyamatha bava nivedhanaya karana ladhii",
-    expected: "දුම්රිය වෙදිකාව වෙත ළගාවීමට නියමිත බව නිවේදනය කරන ළදී"
-  },
-  {
-    id: "Neg_Fun_0035",
-    name: "Repetition / noisy input",
-    type: "negative",
-    lengthType: "M",
-    input: "hari hari hari hari hari hari egollo anivaaren enavaa",
-    expected: "හරි හරි එගොල්ලො අනිවාරෙන් එනවා"
-  },
-  {
-    id: "Neg_Fun_0036",
-    name: "Mixed spelling / odd token (i)",
-    type: "negative",
-    lengthType: "S",
-    input: "shrilankaavee udhdhamanaya i ihala gos aetha",
-    expected: "ශ්‍රිලන්කාවේ උද්දමනය ඉහල ගොස් ඇත"
-  },
-  {
-    id: "Neg_Fun_0037",
-    name: "Broken / unclear question",
-    type: "negative",
-    lengthType: "S",
-    input: "oka karanna danna karuth nadda",
-    expected: "ඔක කරන්න දන්න කවූරුත් නැද්ද"
-  },
+   {
+  id: "Neg_Fun_0001",
+  name: "Slang / informal (adoo machan...)",
+  type: "negative",
+  lengthType: "S",
+  input: "adoo machan mata epaa velaa thiyenne",
+  expected: "අඩෝ මචං මට එපා වෙලා තියෙන්නෙ"
+},
+{
+  id: "Neg_Fun_0002",
+  name: "Unnatural/incorrect structure (grammar issue)",
+  type: "negative",
+  lengthType: "M",
+  input: "owun charikawa yaama nisaa sellam kiriimata yaamata nohaekiwiya",
+  expected: "ඔවුන් චරිකව යාම නිසා සෙල්ලම් කිරීමට යාමට නොහෑකිවිය"
+},
+{
+  id: "Neg_Fun_0003",
+  name: "Corrupted input / symbols + codes",
+  type: "negative",
+  lengthType: "M",
+  input: "mata mee potha vibaagaya sadhah+I146+D126",
+  expected: "මට මේ පොත විභාගය සදහා බාවිතා කල හැකිද?"
+},
+{
+  id: "Neg_Fun_0004",
+  name: "English tech term embedded (framework/tool)",
+  type: "negative",
+  lengthType: "S",
+  input: "ape project ekata api Laravel pavichchi kalaa",
+  expected: "අපේ project එකට අපි Laravel  පවිච්චි කලා"
+},
+{
+  id: "Neg_Fun_0005",
+  name: "Missing spaces / merged words",
+  type: "negative",
+  lengthType: "S",
+  input: "ohuraekiyaavatayannetraineken",
+  expected: "ඔහු රැකියාවට යන්නෙ train එකෙන්"
+},
+{
+  id: "Neg_Fun_0006",
+  name: "Ambiguous / unclear phrase",
+  type: "negative",
+  lengthType: "S",
+  input: "loku va ess ak atha Laga",
+  expected: "ලොකු වැස්සක් අත ළග"
+},
+{
+  id: "Neg_Fun_0007",
+  name: "Formal notice style sentence",
+  type: "negative",
+  lengthType: "M",
+  input: "dhumriya vedikava vetha lagaveemata niyamatha bava nivedhanaya karana ladhii",
+  expected: "දුම්රිය වෙදිකාව වෙත ළගාවීමට නියමිත බව නිවේදනය කරන ළදී"
+},
+{
+  id: "Neg_Fun_0008",
+  name: "Repetition / noisy input",
+  type: "negative",
+  lengthType: "M",
+  input: "hari hari hari hari hari hari egollo anivaaren enavaa",
+  expected: "හරි හරි එගොල්ලො අනිවාරෙන් එනවා"
+},
+{
+  id: "Neg_Fun_0009",
+  name: "Mixed spelling / odd token (i)",
+  type: "negative",
+  lengthType: "S",
+  input: "shrilankaavee udhdhamanaya i ihala gos aetha",
+  expected: "ශ්‍රිලන්කාවේ උද්දමනය ඉහල ගොස් ඇත"
+},
+{
+  id: "Neg_Fun_0010",
+  name: "Broken / unclear question",
+  type: "negative",
+  lengthType: "S",
+  input: "oka karanna danna karuth nadda",
+  expected: "ඔක කරන්න දන්න කවූරුත් නැද්ද"
+},
+
 
   // UI Test Cases
-  {
+
+    {
     id: "Pos_UI_0001",
-    name: "Partial translation display",
+    name: "Real-time translation update",
     type: "positive",
-    lengthType: "S",
-    input: "mama yanavaa",
-    expected: "මම යනවා"
+    lengthType: "M",
+    input: "saamaajika gaasthu velavata labaa dhenna",
+    expected: "සාමාජික ගාස්තු වෙලවට ලබා දෙන්න"
   },
+
   {
     id: "Pos_UI_0002",
-    name: "Real-time translation update",
+    name: "Clear button clears both fields",
     type: "positive",
     lengthType: "M",
     input: "api sellam karamu",
     expected: "අපි සෙල්ලම් කරමු"
   },
+
   {
-    id: "Pos_UI_0003",
-    name: "Clear button functionality",
+    id: "Neg_UI_0001",
+    name: "UI - Faild to handle user password formate",
+    type: "negative",
+    lengthType: "S",
+    input: "ohuge password eka 87546@Nimesh",
+    expected: "ඔහුගෙ password එක 87546@Nimesh"
+  },
+
+
+  {
+    id: "Neg_UI_0002",
+    name: "can not Handle emojis in input",
     type: "positive",
     lengthType: "S",
-    input: "adda karapu",
-    expected: "අද්දා කරපු"
+    input: "Suba aluth avurudhdhak veevaa☀️",
+    expected: "සුබ අලුත් අවුරුද්දක් වේවා☀️"
   },
-  {
-    id: "Neg_UI_0004",
-    name: "UI - Empty input handling",
-    type: "negative",
-    lengthType: "S",
-    input: "",
-    expected: ""
-  },
-  {
-    id: "Neg_UI_0005",
-    name: "UI - Special characters only",
-    type: "negative",
-    lengthType: "S",
-    input: "!@#$%",
-    expected: ""
-  }
 ];
 
 test.describe('Singlish to Sinhala Translator Tests', () => {
@@ -450,18 +448,35 @@ test.describe('UI Functionality Tests', () => {
   });
 
   // Positive UI Tests
-  test('Pos_UI_0001 - Real-time translation on typing', async ({ page }) => {
-    const textarea = page.locator('textarea[placeholder*="Singlish"]');
-    
-    // Type character by character and verify real-time translation
-    await textarea.fill('mama');
-    await page.waitForTimeout(1500);
-    
+
+  test('Pos_UI_0001 - Real-time translation update', async ({ page }) => {
+    const inputTextarea = page.locator('textarea[placeholder*="Singlish"]');
     const textareas = await page.locator('textarea').all();
-    if (textareas.length >= 2) {
-      const output = await textareas[1].inputValue();
-      expect(output.length).toBeGreaterThan(0);
-      expect(hasSinhalaChars(output)).toBe(true);
+    const outputTextarea = textareas.length >= 2 ? textareas[1] : null;
+    
+    // Test input for real-time translation
+    const testInput = "saamaajika gaasthu velavata labaa dhenna";
+    const expectedOutput = "සාමාජික ගාස්තු වෙලවට ලබා දෙන්න";
+    
+    // Fill the input field
+    await inputTextarea.fill(testInput);
+    
+    // Wait for real-time translation to complete
+    await page.waitForTimeout(2000);
+    
+    // Verify input field contains the text
+    const inputValue = await inputTextarea.inputValue();
+    expect(inputValue).toBe(testInput);
+    
+    // Verify output field is populated and contains Sinhala characters
+    if (outputTextarea) {
+      const outputValue = await outputTextarea.inputValue();
+      expect(outputValue.length).toBeGreaterThan(0);
+      expect(hasSinhalaChars(outputValue)).toBe(true);
+      
+      // Verify the output matches expected translation
+      const cleanedOutput = outputValue.trim();
+      expect(cleanedOutput).toBe(expectedOutput);
     }
   });
 
@@ -484,49 +499,9 @@ test.describe('UI Functionality Tests', () => {
     }
   });
 
-  test('Pos_UI_0003 - Text appears in output as user types', async ({ page }) => {
-    const textareas = await page.locator('textarea').all();
-    const inputField = textareas[0];
-    
-    // Type partial input
-    await inputField.fill('api');
-    await page.waitForTimeout(1000);
-    
-    // Check output has content
-    if (textareas.length >= 2) {
-      const output = await textareas[1].inputValue();
-      expect(output.trim().length).toBeGreaterThan(0);
-    }
-  });
 
-  // Negative UI Tests
-  test('Neg_UI_0004 - Empty input produces empty output', async ({ page }) => {
-    const textarea = page.locator('textarea[placeholder*="Singlish"]');
-    
-    // Ensure field is empty
-    await textarea.fill('');
-    await page.waitForTimeout(500);
-    
-    const textareas = await page.locator('textarea').all();
-    if (textareas.length >= 2) {
-      const output = await textareas[1].inputValue();
-      expect(output.trim()).toBe('');
-    }
-  });
 
-  test('Neg_UI_0005 - Special characters only produces no translation', async ({ page }) => {
-    const textarea = page.locator('textarea[placeholder*="Singlish"]');
-    
-    await textarea.fill('!@#$%^&*()');
-    await page.waitForTimeout(1500);
-    
-    const textareas = await page.locator('textarea').all();
-    if (textareas.length >= 2) {
-      const output = await textareas[1].inputValue();
-      // Output should be empty or just the special characters repeated
-      expect(output.trim().length).toBeLessThanOrEqual(0);
-    }
-  });
+
 
 });
 
